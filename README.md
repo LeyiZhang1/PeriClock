@@ -2,8 +2,8 @@
 
 **A peripheral immune aging clock built from human PBMC single-cell transcriptomes.**
 
-[![Hugging Face Models](https://img.shields.io/badge/Hugging%20Face-Models-yellow)](https://huggingface.co/LeyiZhang1/PeriClock)
-[![Hugging Face Datasets](https://img.shields.io/badge/Hugging%20Face-Datasets-blue)](https://huggingface.co/datasets/LeyiZhang1/PeriClock-data)
+[![PeriClcok Models](https://img.shields.io/badge/Hugging%20Face-Models-yellow)](https://huggingface.co/LeyiZhang1/PeriClock)
+[![PeriClock Datasets](https://img.shields.io/badge/Hugging%20Face-Datasets-blue)](https://huggingface.co/datasets/LeyiZhang1/PeriClock-data)
 
 <p align="center">
   <img src="assets/PeriClock_overview.png" alt="Overview of the PeriClock framework" width="100%">
@@ -33,38 +33,45 @@ and prediction outputs.
 
 ## Installation
 
-From the root of this code repository, create a Python 3.12 environment:
+Clone the PeriClock repository and create a Python 3.12 environment:
 
 ```bash
+git clone https://github.com/LeyiZhang1/PeriClock.git
+cd PeriClock
+
 conda create -n periclock python=3.12 -y
 conda activate periclock
+
 python -m pip install .
 ```
 
-For Hugging Face downloads, install the optional Hub client:
-
-```bash
-python -m pip install ".[hub]"
-```
-
-For all supported cell-annotation methods:
+For cell annotation using CellTypist, Symphony, or BBKNN, install the optional dependencies:
 
 ```bash
 python -m pip install ".[annotation]"
 ```
 
-For Scanpy preprocessing alone, use `python -m pip install ".[preprocessing]"`.
-Alternatively, `python -m pip install -r requirements.txt` installs the pinned core
-dependencies and the checkout in editable mode. Dependency versions, including
-scikit-learn 1.5.1 for saved-model compatibility, are specified in
-[pyproject.toml](pyproject.toml). See [installation details](docs/installation.md).
+For Scanpy preprocessing only:
+
+```bash
+python -m pip install ".[preprocessing]"
+
+For downloading pretrained models and datasets from Hugging Face, install the optional dependencies:
+
+```bash
+python -m pip install ".[hub]"
+```
+
+```
+See [Installation Guide](docs/installation.md) for additional setup instructions.
+
 
 ## Quick Start
 
 Start with a normalized, subtype-annotated PBMC AnnData. With the Hub extra
 installed, download the pretrained model into your chosen external directory.
 The repositories are currently private: authorized users must first authenticate
-with `huggingface-cli login` or `HF_TOKEN`. Replace paths and observation keys
+with `hf auth login` or `HF_TOKEN`. Replace paths and observation keys
 with those of your data.
 
 ```python
