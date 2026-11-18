@@ -1,0 +1,32 @@
+{
+  "PeriClock": {
+    "path": "models/PeriClock.pkl",
+    "sha256": "9c64ed8ccceb15b652df44e1a07263ca471807adc7d4d33b77db77712642962d",
+    "feature_order_sha256": "ef2955f2c68c309d91a9cc6a341e6ab804e02acafb8d2fdc445744d3e645a414"
+  },
+  "PeriClock-200s": {
+    "path": "models/PeriClock-200s.pkl",
+    "sha256": "ead08a154964b634ed1628e7af03189e75a9680ef7a8e66a96a2d47c715e90ed",
+    "feature_order_sha256": "0ab52db9dfd9c0f6efcebec6ca9ad84781fbe6159abd20e279c9d7fdf56b6c75"
+  },
+  "PeriClock-700s": {
+    "path": "models/PeriClock-700s.pkl",
+    "sha256": "384aaeae1293fa8f7ce7bdae3fa4e4b8bfc0aa3d3d9bb77045272ce38406534f",
+    "feature_order_sha256": "4525392cd3203fe1f28d08d937400ffcb0f5a46f1d4f75a21622885708261086"
+  },
+  "PeriClock-1000s": {
+    "path": "models/PeriClock-1000s.pkl",
+    "sha256": "2225e881e8cbc3d1a5f8ef462698d7e73bddccbc314f6527521eda2c782eaecc",
+    "feature_order_sha256": "d091a40c548ab2b3eaaade38f2265375919d2dd01f4a5dd53fa2e09aca720f92"
+  },
+  "PeriClock-bulk": {
+    "path": "models/PeriClock-bulk.pkl",
+    "sha256": "271a26d99b198994a9ff624cf9b33e0c1f22ab6bbbed5819b0c14c8960f1e92e",
+    "feature_order_sha256": "66efd1e3a2a4019044f46a66b207292b7e36369943cb490c4021ccc78837ee2b"
+  },
+  "PeriClock-proportion": {
+    "path": "models/PeriClock-proportion.pkl",
+    "sha256": "a3a24ad811ccc17141c27087ec3ea20c7826e3c7b36e8a69f8bdf3777f497281",
+    "feature_order_sha256": "2b1ca6a08dee039c6ebb86e0752392485bfe6b197a6235ddaf16f8dc3a034ed4"
+  }
+}

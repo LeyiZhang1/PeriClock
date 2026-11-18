@@ -1,0 +1,4 @@
+# Preserve the original reviewed resource bytes and SHA256 on every platform.
+/resources/features/*.csv -text
+/resources/benchmark/*.csv -text
+resources/benchmark/benchmark.csv -whitespace

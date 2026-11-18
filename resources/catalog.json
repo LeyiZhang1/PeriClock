@@ -1,0 +1,2039 @@
+{
+  "resource_set": "PeriClock release candidates reviewed 2026-11-17",
+  "publication": "Six pretrained models uploaded; dataset repository created and uploads in progress. Both repositories currently private; authorized access required.",
+  "resources": [
+    {
+      "id": "PeriClock",
+      "filename": "PeriClock.pkl",
+      "classification": "HF Models",
+      "size_bytes": 40558294,
+      "sha256": "9c64ed8ccceb15b652df44e1a07263ca471807adc7d4d33b77db77712642962d",
+      "tutorials_or_consumers": "package/example/tests;05;06;07;09;10",
+      "source": "PeriClock_model/models/PeriClock.pkl",
+      "license": "Owner redistribution approval received; license identifier pending",
+      "publication_status": "Uploaded; available to authorized users (repository currently private)",
+      "feature_order_sha256": "ef2955f2c68c309d91a9cc6a341e6ab804e02acafb8d2fdc445744d3e645a414",
+      "repository_id": "LeyiZhang1/PeriClock",
+      "revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "copy_sha256_verified": true,
+      "feature_count": 173,
+      "default_relative_path": "models/PeriClock.pkl",
+      "compatibility": "Loaded with release API; ordered-feature fingerprint matches frozen tests baseline; original estimator comparison passed",
+      "required_serialization_dependencies": {
+        "python": "3.12",
+        "numpy": "1.26.4",
+        "scipy": "1.11.4",
+        "scikit-learn": "1.5.1",
+        "joblib": "1.4.2"
+      },
+      "repo_id": "LeyiZhang1/PeriClock",
+      "repo_type": "model",
+      "repo_url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "repository_url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "availability_checked_on": "2026-11-18",
+      "availability": "available",
+      "remote_size_bytes": 40558294,
+      "remote_sha256": "9c64ed8ccceb15b652df44e1a07263ca471807adc7d4d33b77db77712642962d",
+      "remote_sha256_matches": true,
+      "download_url": "https://huggingface.co/LeyiZhang1/PeriClock/resolve/0e761ebae1010f9c148e0ec7be89063815f21d25/PeriClock.pkl"
+    },
+    {
+      "id": "PeriClock-200s",
+      "filename": "PeriClock-200s.pkl",
+      "classification": "HF Models",
+      "size_bytes": 40095986,
+      "sha256": "ead08a154964b634ed1628e7af03189e75a9680ef7a8e66a96a2d47c715e90ed",
+      "tutorials_or_consumers": "package/example/tests",
+      "source": "PeriClock_model/models/PeriClock-200s.pkl",
+      "license": "Owner redistribution approval received; license identifier pending",
+      "publication_status": "Uploaded; available to authorized users (repository currently private)",
+      "feature_order_sha256": "0ab52db9dfd9c0f6efcebec6ca9ad84781fbe6159abd20e279c9d7fdf56b6c75",
+      "repository_id": "LeyiZhang1/PeriClock",
+      "revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "copy_sha256_verified": true,
+      "feature_count": 67,
+      "default_relative_path": "models/PeriClock-200s.pkl",
+      "compatibility": "Loaded with release API; ordered-feature fingerprint matches frozen tests baseline; original estimator comparison passed",
+      "required_serialization_dependencies": {
+        "python": "3.12",
+        "numpy": "1.26.4",
+        "scipy": "1.11.4",
+        "scikit-learn": "1.5.1",
+        "joblib": "1.4.2"
+      },
+      "repo_id": "LeyiZhang1/PeriClock",
+      "repo_type": "model",
+      "repo_url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "repository_url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "availability_checked_on": "2026-11-18",
+      "availability": "available",
+      "remote_size_bytes": 40095986,
+      "remote_sha256": "ead08a154964b634ed1628e7af03189e75a9680ef7a8e66a96a2d47c715e90ed",
+      "remote_sha256_matches": true,
+      "download_url": "https://huggingface.co/LeyiZhang1/PeriClock/resolve/0e761ebae1010f9c148e0ec7be89063815f21d25/PeriClock-200s.pkl"
+    },
+    {
+      "id": "PeriClock-700s",
+      "filename": "PeriClock-700s.pkl",
+      "classification": "HF Models",
+      "size_bytes": 40431474,
+      "sha256": "384aaeae1293fa8f7ce7bdae3fa4e4b8bfc0aa3d3d9bb77045272ce38406534f",
+      "tutorials_or_consumers": "package/example/tests",
+      "source": "PeriClock_model/models/PeriClock-700s.pkl",
+      "license": "Owner redistribution approval received; license identifier pending",
+      "publication_status": "Uploaded; available to authorized users (repository currently private)",
+      "feature_order_sha256": "4525392cd3203fe1f28d08d937400ffcb0f5a46f1d4f75a21622885708261086",
+      "repository_id": "LeyiZhang1/PeriClock",
+      "revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "copy_sha256_verified": true,
+      "feature_count": 119,
+      "default_relative_path": "models/PeriClock-700s.pkl",
+      "compatibility": "Loaded with release API; ordered-feature fingerprint matches frozen tests baseline; original estimator comparison passed",
+      "required_serialization_dependencies": {
+        "python": "3.12",
+        "numpy": "1.26.4",
+        "scipy": "1.11.4",
+        "scikit-learn": "1.5.1",
+        "joblib": "1.4.2"
+      },
+      "repo_id": "LeyiZhang1/PeriClock",
+      "repo_type": "model",
+      "repo_url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "repository_url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "availability_checked_on": "2026-11-18",
+      "availability": "available",
+      "remote_size_bytes": 40431474,
+      "remote_sha256": "384aaeae1293fa8f7ce7bdae3fa4e4b8bfc0aa3d3d9bb77045272ce38406534f",
+      "remote_sha256_matches": true,
+      "download_url": "https://huggingface.co/LeyiZhang1/PeriClock/resolve/0e761ebae1010f9c148e0ec7be89063815f21d25/PeriClock-700s.pkl"
+    },
+    {
+      "id": "PeriClock-1000s",
+      "filename": "PeriClock-1000s.pkl",
+      "classification": "HF Models",
+      "size_bytes": 40591970,
+      "sha256": "2225e881e8cbc3d1a5f8ef462698d7e73bddccbc314f6527521eda2c782eaecc",
+      "tutorials_or_consumers": "package/example/tests",
+      "source": "PeriClock_model/models/PeriClock-1000s.pkl",
+      "license": "Owner redistribution approval received; license identifier pending",
+      "publication_status": "Uploaded; available to authorized users (repository currently private)",
+      "feature_order_sha256": "d091a40c548ab2b3eaaade38f2265375919d2dd01f4a5dd53fa2e09aca720f92",
+      "repository_id": "LeyiZhang1/PeriClock",
+      "revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "copy_sha256_verified": true,
+      "feature_count": 138,
+      "default_relative_path": "models/PeriClock-1000s.pkl",
+      "compatibility": "Loaded with release API; ordered-feature fingerprint matches frozen tests baseline; original estimator comparison passed",
+      "required_serialization_dependencies": {
+        "python": "3.12",
+        "numpy": "1.26.4",
+        "scipy": "1.11.4",
+        "scikit-learn": "1.5.1",
+        "joblib": "1.4.2"
+      },
+      "repo_id": "LeyiZhang1/PeriClock",
+      "repo_type": "model",
+      "repo_url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "repository_url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "availability_checked_on": "2026-11-18",
+      "availability": "available",
+      "remote_size_bytes": 40591970,
+      "remote_sha256": "2225e881e8cbc3d1a5f8ef462698d7e73bddccbc314f6527521eda2c782eaecc",
+      "remote_sha256_matches": true,
+      "download_url": "https://huggingface.co/LeyiZhang1/PeriClock/resolve/0e761ebae1010f9c148e0ec7be89063815f21d25/PeriClock-1000s.pkl"
+    },
+    {
+      "id": "PeriClock-bulk",
+      "filename": "PeriClock-bulk.pkl",
+      "classification": "HF Models",
+      "size_bytes": 38228,
+      "sha256": "271a26d99b198994a9ff624cf9b33e0c1f22ab6bbbed5819b0c14c8960f1e92e",
+      "tutorials_or_consumers": "package/example/tests",
+      "source": "PeriClock_model/models/PeriClock-bulk.pkl",
+      "license": "Owner redistribution approval received; license identifier pending",
+      "publication_status": "Uploaded; available to authorized users (repository currently private)",
+      "feature_order_sha256": "66efd1e3a2a4019044f46a66b207292b7e36369943cb490c4021ccc78837ee2b",
+      "repository_id": "LeyiZhang1/PeriClock",
+      "revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "copy_sha256_verified": true,
+      "feature_count": 131,
+      "default_relative_path": "models/PeriClock-bulk.pkl",
+      "compatibility": "Loaded with release API; ordered-feature fingerprint matches frozen tests baseline; original estimator comparison passed",
+      "required_serialization_dependencies": {
+        "python": "3.12",
+        "numpy": "1.26.4",
+        "scipy": "1.11.4",
+        "scikit-learn": "1.5.1",
+        "joblib": "1.4.2"
+      },
+      "repo_id": "LeyiZhang1/PeriClock",
+      "repo_type": "model",
+      "repo_url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "repository_url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "availability_checked_on": "2026-11-18",
+      "availability": "available",
+      "remote_size_bytes": 38228,
+      "remote_sha256": "271a26d99b198994a9ff624cf9b33e0c1f22ab6bbbed5819b0c14c8960f1e92e",
+      "remote_sha256_matches": true,
+      "download_url": "https://huggingface.co/LeyiZhang1/PeriClock/resolve/0e761ebae1010f9c148e0ec7be89063815f21d25/PeriClock-bulk.pkl"
+    },
+    {
+      "id": "PeriClock-proportion",
+      "filename": "PeriClock-proportion.pkl",
+      "classification": "HF Models",
+      "size_bytes": 2830910,
+      "sha256": "a3a24ad811ccc17141c27087ec3ea20c7826e3c7b36e8a69f8bdf3777f497281",
+      "tutorials_or_consumers": "package/example/tests",
+      "source": "PeriClock_model/models/PeriClock-proportion.pkl",
+      "license": "Owner redistribution approval received; license identifier pending",
+      "publication_status": "Uploaded; available to authorized users (repository currently private)",
+      "feature_order_sha256": "2b1ca6a08dee039c6ebb86e0752392485bfe6b197a6235ddaf16f8dc3a034ed4",
+      "repository_id": "LeyiZhang1/PeriClock",
+      "revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "copy_sha256_verified": true,
+      "feature_count": 48,
+      "default_relative_path": "models/PeriClock-proportion.pkl",
+      "compatibility": "Loaded with release API; ordered-feature fingerprint matches frozen tests baseline; original estimator comparison passed",
+      "required_serialization_dependencies": {
+        "python": "3.12",
+        "numpy": "1.26.4",
+        "scipy": "1.11.4",
+        "scikit-learn": "1.5.1",
+        "joblib": "1.4.2"
+      },
+      "original_estimator_evidence": {
+        "source": "final/fig2/ET_model/final_ET_model/ExtraTrees_model.joblib",
+        "reader_notebook": "final/fig1_2.ipynb",
+        "reader_cell_zero_based": 70,
+        "training_function_cell_zero_based": 55,
+        "fit_call_cell_zero_based": 56,
+        "save_cell_zero_based": 66,
+        "ordered_features_equal": true,
+        "parameters_equal": true,
+        "all_learned_tree_nodes_and_values_equal": true,
+        "tree_count": 886,
+        "retained_output_limitation": "Cell 56 retains a 969-tree search result; nonmonotonic execution counters and separate CSV reload prevent attributing all retained outputs and artifacts to one run. Exact cause unconfirmed."
+      },
+      "repo_id": "LeyiZhang1/PeriClock",
+      "repo_type": "model",
+      "repo_url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "repository_url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "availability_checked_on": "2026-11-18",
+      "availability": "available",
+      "remote_size_bytes": 2830910,
+      "remote_sha256": "a3a24ad811ccc17141c27087ec3ea20c7826e3c7b36e8a69f8bdf3777f497281",
+      "remote_sha256_matches": true,
+      "download_url": "https://huggingface.co/LeyiZhang1/PeriClock/resolve/0e761ebae1010f9c148e0ec7be89063815f21d25/PeriClock-proportion.pkl"
+    },
+    {
+      "id": "stable-selection",
+      "filename": "bootstrap_selected_stable_features.csv",
+      "classification": "GitHub",
+      "size_bytes": 6398,
+      "sha256": "75781eed09308d2df1c86a9b02fab436fcea41fabdf707eabe5fd0af458910de",
+      "tutorials_or_consumers": "02",
+      "source": "conca_disease/functional_analyse/bootstrap_selected_stable_features.csv",
+      "license": "Owner redistribution approval received; license identifier pending",
+      "publication_status": "Included locally; GitHub publication pending",
+      "github_path": "resources/features/bootstrap_selected_stable_features.csv",
+      "copy_sha256_verified": true,
+      "producer_evidence": [
+        {
+          "file": "conca_disease/healthy_model/en_model/en_iter_model/iter_en1000_cima.ipynb",
+          "cell_indices_zero_based": [
+            39,
+            41
+          ],
+          "evidence_kind": "selection-and-writer",
+          "source_cell_sha256": [
+            "e6c53da29bac3829688d3686bb7142a54a52a781e576a40a152348020d9fbee5",
+            "05fb228c97b67e2d217c0cb11a2c647bcfaaad8782987f826ef267bcec2a0111"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Frequency >=0.7 selection and CSV export. Original writer spells the parent directory conca_diseas; this export alone does not prove placement. Current CSV input order matches the final saved artifact."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain."
+    },
+    {
+      "id": "feature-coefficients",
+      "filename": "stable_feature_coef.csv",
+      "classification": "GitHub",
+      "size_bytes": 13564,
+      "sha256": "f479256ea0b30a57d65a08efd26718cbfe7f3580d98ba48d948fa1f112148fee",
+      "tutorials_or_consumers": "04",
+      "source": "conca_disease/functional_analyse/stable_feature_coef.csv",
+      "license": "Owner redistribution approval received; license identifier pending",
+      "publication_status": "Included locally; GitHub publication pending",
+      "github_path": "resources/features/stable_feature_coef.csv",
+      "copy_sha256_verified": true,
+      "producer_evidence": [
+        {
+          "file": "conca_disease/functional_analyse/stable_feature_enrichment/stable_features_analysis.ipynb",
+          "cell_indices_zero_based": [
+            3,
+            4,
+            5,
+            7,
+            8,
+            18,
+            19
+          ],
+          "evidence_kind": "writer",
+          "source_cell_sha256": [
+            "5ca2fe922f90eadd6989e4fabac6083ba02a4f79fdf7a326a680484d316e4710",
+            "8f770eaf016e4f9f4ab49960ede20009cc7235ff3ccaea3af739af4b833731f1",
+            "fbd959b08ae216abd54cca00850ed8b68226f27f910c64e39b615a72c3298dcb",
+            "048873561af1fd7cad0c8e572ec8457acbac27f6aab451c4c94bc0587c43b4e8",
+            "93e3a3d1bc96a17e7e40a72732efc5a9679b14b763c479f82b15bcdc31325c0f",
+            "2f5253c4baf6a122374013df1b972fb99c443704ade3d6332b83cc65274c0313",
+            "93e3a3d1bc96a17e7e40a72732efc5a9679b14b763c479f82b15bcdc31325c0f"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Extracts saved coefficients, merges features, annotates type/gene and writes coefficient CSV. Current table matches final input identities and float32 coefficients."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain."
+    },
+    {
+      "id": "nonzero-features",
+      "filename": "stable_feature_coef_no0.csv",
+      "classification": "GitHub",
+      "size_bytes": 14247,
+      "sha256": "472fbd134d596bebc93416c3add2706020e64feaaff891330c00f85b0ed8159e",
+      "tutorials_or_consumers": "10",
+      "source": "conca_disease/functional_analyse/stable_feature_coef_no0.csv",
+      "license": "Owner redistribution approval received; license identifier pending",
+      "publication_status": "Included locally; GitHub publication pending",
+      "github_path": "resources/features/stable_feature_coef_no0.csv",
+      "copy_sha256_verified": true,
+      "producer_evidence": [
+        {
+          "file": "final/fig4.ipynb",
+          "cell_indices_zero_based": [
+            6,
+            8,
+            9
+          ],
+          "evidence_kind": "writer",
+          "source_cell_sha256": [
+            "0bc3f13be67de40a8072721a8434dea6f1ad03d01d2a58b74c584d1924103362",
+            "ab67e4c15a93b66fbb5b0371b7484ad1959b50668bbd022ed799976c4a483a25",
+            "6e0f4bedd698d6a417c263080655fff3e5edf6cf6c4c4a38117280f5eb2208ff"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Original explicit nonzero-coefficient filter and saved no0 CSV; retains 172 rows."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain."
+    },
+    {
+      "id": "expression-trends",
+      "filename": "features_trend_trainset.csv",
+      "classification": "GitHub",
+      "size_bytes": 29062,
+      "sha256": "36ac78097f3a2c2a00b363633345a074ac505027ea37f77d564d8b72e323b5ae",
+      "tutorials_or_consumers": "04",
+      "source": "conca_disease/functional_analyse/stable_feature_enrichment/features_trend_trainset.csv",
+      "license": "Owner redistribution approval received; license identifier pending",
+      "publication_status": "Included locally; GitHub publication pending",
+      "github_path": "resources/features/features_trend_trainset.csv",
+      "copy_sha256_verified": true,
+      "producer_evidence": [
+        {
+          "file": "conca_disease/functional_analyse/stable_feature_enrichment/stable_features_analysis.ipynb",
+          "cell_indices_zero_based": [
+            62,
+            63,
+            64,
+            65,
+            67
+          ],
+          "evidence_kind": "writer",
+          "source_cell_sha256": [
+            "f8660aa4c39ad8a230e177f2e281287610d6a4c9f5096460ff592158168085b1",
+            "e6ef9e6e1af166bbb20be9bbb20b4a6b8f814e4fead655a8b3a333af941488fc",
+            "1badfa4fe247253055ed3391c9f8d86b9622844f1abffdb25001a39fe79b5231",
+            "ab95cac3b079b3bc9fe1e8c31e5cf4e1633b258e13872fb6a489f1c690761c3a",
+            "92670e310fdde377d651b0be60e9bf0de01179129748351e2fd8b611e34d955e"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Healthy/batch-filtered atlas; expression-only selected features; age-group mean expression; writes trend CSV. Does not add cell-proportion rows or discard the selected zero-coefficient expression feature."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain."
+    },
+    {
+      "id": "benchmark",
+      "filename": "benchmark.csv",
+      "classification": "GitHub",
+      "size_bytes": 1115,
+      "sha256": "a7a586ca8afa1b6d3e3a5f6eb42542cfb3ab9dceda1f85881ab5930dce8b1624",
+      "tutorials_or_consumers": "03",
+      "source": "final/fig3/benchmark/benchmark.csv",
+      "license": "Owner redistribution approval received; license identifier pending",
+      "publication_status": "Included locally; GitHub publication pending",
+      "github_path": "resources/benchmark/benchmark.csv",
+      "copy_sha256_verified": true,
+      "producer_evidence": [
+        {
+          "file": "final/fig3.ipynb",
+          "cell_indices_zero_based": [
+            192
+          ],
+          "evidence_kind": "reader-and-ranking",
+          "source_cell_sha256": [
+            "dbaa44e6747dd79532f06a4c813caec7b085274a09969b5f39b27743d53cb6a2"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Reads the final 17-method aggregate, ranks/renders it. Initial CSV assembly/export not established here; table values were checked against final Fig. 3f and rendering executed previously."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain."
+    },
+    {
+      "id": "celltypist",
+      "filename": "celltypist_model_cell_subtype_final.pkl",
+      "classification": "Pending review",
+      "size_bytes": 1117390,
+      "sha256": "0c7db05fb473ebd342e10360cd2b5d4cada242f1e5b84ca3132037a852b8cc85",
+      "tutorials_or_consumers": "example;09-10 annotation prerequisite",
+      "source": "conca_disease/healthy_model/celltypist_model/celltypist_model_cell_subtype_final.pkl",
+      "original_sources": [],
+      "copy_sha256_verified": false,
+      "publication_status": "Not approved for redistribution; not staged",
+      "review_note": "Annotation-model redistribution approval/training provenance pending; not covered by six-clock-model approval.",
+      "default_relative_path": "annotation/celltypist_model_cell_subtype_final.pkl",
+      "required_by_retained_code": true,
+      "producer_evidence": [
+        {
+          "file": "conca_disease/healthy_model/disease_valid_dataset/tumor/HNSCC/exp/hnscc.ipynb",
+          "cell_indices_zero_based": [
+            56
+          ],
+          "evidence_kind": "writer",
+          "source_cell_sha256": [
+            "5904bf0a9cfbfe6d0ba2720a562dba39b2362ca499d30df5342bbf603978a686"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Training/export code consumes final/dataset/inte/inte_final.h5ad. Exact training snapshot and third-party-derived model rights still require review."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain.",
+      "manuscript_upstream_dataset_ids": [
+        "integration-geo",
+        "integration-synapse",
+        "riken-sc2018"
+      ],
+      "source_rights_review": "Contains/derives from third-party inputs. Per-study restrictions and derived-data rights are not fully reviewed; neither unrestricted nor restricted status is assumed from public availability alone.",
+      "release_proposal": {
+        "recommended_storage": "HF Models companion annotation artifact, if cleared",
+        "publication_status": "Pending publication",
+        "approved_payload_copy": false
+      }
+    },
+    {
+      "id": "healthy-reference",
+      "filename": "inte_final_healthy.h5ad",
+      "classification": "Pending review",
+      "size_bytes": 65946505041,
+      "sha256": "3fe312fc741c3777a24f940adff5eb2ab0480ed93e14934a973703ef98ad2626",
+      "tutorials_or_consumers": "01;annotation prerequisite",
+      "source": "final/dataset/inte/inte_final_healthy.h5ad",
+      "original_sources": [],
+      "copy_sha256_verified": true,
+      "publication_status": "Pending upload; absent from checked dataset commit",
+      "review_note": "Author-confirmed research role; per-source redistribution terms, donor/sample identifiers and age/health metadata require clearance before copy/public release.",
+      "default_relative_path": "datasets/inte_final_healthy.h5ad",
+      "shape": [
+        2544543,
+        11211
+      ],
+      "expression_matrix_read": false,
+      "distinct_donor_count": 259,
+      "required_by_retained_code": true,
+      "producer_evidence": [
+        {
+          "file": "final/fig1_2.ipynb",
+          "cell_indices_zero_based": [
+            14,
+            52
+          ],
+          "evidence_kind": "reader",
+          "source_cell_sha256": [
+            "ecfc6b71953d3469fb8f492459cc4a646205d4680c694e73d2c1ed91aaa64cbe",
+            "6e4e72bbbcaf7709e3cff962a59d120e79cb7dad9aecafd1ad2aa96eef2d5e36"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Exact retained input path. Not the generating/exporting code."
+        },
+        {
+          "file": "conca_disease/healthy_model/build_feature_matrix.ipynb",
+          "cell_indices_zero_based": [
+            3,
+            10,
+            11
+          ],
+          "evidence_kind": "related-processing",
+          "source_cell_sha256": [
+            "0a5e9cc16c1405a1de8a915e842f9ea6f9b6109b9bb8315e80875695fb6f6b9a",
+            "f33d2fbfc53728cd258e2eec28f097b58d72435d63f48d490f1a5d900b8add04",
+            "f35f3bbddf7243c6530ebd943c94d180b0b92bd1cb885ddc58824d16f3e024c3"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Atlas age conversion and healthy/batch filtering are present, but this code does not establish the exact saved healthy-reference export."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain.",
+      "manuscript_upstream_dataset_ids": [
+        "integration-geo",
+        "integration-synapse",
+        "riken-sc2018"
+      ],
+      "source_rights_review": "Contains/derives from third-party inputs. Per-study restrictions and derived-data rights are not fully reviewed; neither unrestricted nor restricted status is assumed from public availability alone.",
+      "release_proposal": {
+        "recommended_storage": "HF Datasets",
+        "publication_status": "Pending upload; absent from checked dataset commit",
+        "approved_payload_copy": true,
+        "identity_confirmed": true,
+        "source_rights_cleared": false,
+        "privacy_cleared": false,
+        "payload_state": "Local staging copy present; exact SHA256 verified; public redistribution still Pending review",
+        "local_staging_authorized": true,
+        "public_upload_allowed": false,
+        "repository_id": "LeyiZhang1/PeriClock-data"
+      },
+      "saved_model_consistency_check": {
+        "method": "Observation metadata only; original preprocessing and split; frozen saved feature order; prediction only, no training",
+        "train_rows": 296,
+        "validation_rows": 74,
+        "validation_r2": 0.5107237283021665,
+        "validation_mae": 11.271852051294887,
+        "archived_metrics_source": "final/fig2/model_comparison/metrics_df.csv",
+        "agreement": "Floating-point round-off only; not full tutorial training/external validation"
+      },
+      "author_confirmed_role": "Formal healthy PBMC modeling data derived by removing disease data from integrated atlas; confirmed by author on 2026-11-17. Cohort counts describe this file/stage, not a version rejection criterion.",
+      "download_repository_type": "dataset",
+      "version": "Original bytes pinned by SHA256; no published processing release tag assigned",
+      "license_candidate": "CC BY 4.0 only for rights the authors can grant; not approved and does not replace upstream terms",
+      "anndata_metadata": {
+        "shape": [
+          2544543,
+          11211
+        ],
+        "X": {
+          "encoding": "csr_matrix",
+          "shape": [
+            2544543,
+            11211
+          ],
+          "dtype": "float64",
+          "stored_entries": 3036533590,
+          "first_stored_values_sample": {
+            "n": 10000,
+            "finite": true,
+            "nonnegative": true,
+            "all_integer_valued": false
+          }
+        },
+        "obs_columns": [
+          "batch",
+          "n_genes_by_counts",
+          "total_counts",
+          "total_counts_mt",
+          "pct_counts_mt",
+          "nCount_RNA",
+          "nFeature_RNA",
+          "Cluster_names",
+          "leiden",
+          "cell_type",
+          "Age",
+          "Age_group",
+          "Individual",
+          "Age_group2",
+          "cell_subtype2",
+          "cell_subtype",
+          "cell_subtype_final",
+          "health_state"
+        ],
+        "uns_keys": [
+          "Age_group_colors",
+          "cell_subtype2_colors",
+          "cell_subtype_final_colors",
+          "cell_type_colors",
+          "leiden",
+          "leiden_colors",
+          "log1p",
+          "neighbors",
+          "pca",
+          "rank_genes_groups",
+          "umap"
+        ],
+        "log1p_metadata": true,
+        "raw_present": false,
+        "donor_statistics": {
+          "Individual": {
+            "distinct_nonmissing": 259,
+            "missing": 0
+          },
+          "Age": {
+            "distinct_nonmissing": 68,
+            "missing": 0
+          },
+          "health_state": {
+            "distinct_nonmissing": 1,
+            "missing": 0
+          },
+          "batch": {
+            "distinct_nonmissing": 94,
+            "missing": 0
+          }
+        },
+        "donor_age_pairs": 406,
+        "potentially_identifying_obs_fields": [
+          "batch",
+          "Age",
+          "Age_group",
+          "Individual",
+          "Age_group2",
+          "health_state"
+        ],
+        "gene_index_field": "_index",
+        "gene_names_unique": true,
+        "health_state_cell_counts": {
+          "healthy": 2544543
+        },
+        "uns_scalar_text_fields_checked": [
+          "neighbors/connectivities_key",
+          "neighbors/distances_key",
+          "neighbors/params/bbknn/batch_key",
+          "neighbors/params/bbknn/computation",
+          "neighbors/params/method",
+          "neighbors/params/metric",
+          "neighbors/params/use_rep",
+          "rank_genes_groups/params/corr_method",
+          "rank_genes_groups/params/groupby",
+          "rank_genes_groups/params/method",
+          "rank_genes_groups/params/reference"
+        ],
+        "uns_developer_absolute_path_fields": [],
+        "layers": [],
+        "obsm": [
+          "X_pca",
+          "X_umap"
+        ],
+        "obsp": [
+          "connectivities",
+          "distances",
+          "simple_connectivities"
+        ],
+        "var_column_count": 1603,
+        "var_field_families": "mt and source-suffixed gene_ids/feature_types/genome/QC metrics; preserve original schema",
+        "full_expression_matrix_loaded": false,
+        "normalization_state": "log1p metadata present; sampled stored X values nonnegative, finite and noninteger. Exact normalization cannot be proved from metadata/sample alone; do not renormalize or treat as raw counts."
+      },
+      "repo_id": "LeyiZhang1/PeriClock-data",
+      "repository_id": "LeyiZhang1/PeriClock-data",
+      "repo_type": "dataset",
+      "repo_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "repository_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+      "availability_checked_on": "2026-11-18",
+      "revision": null,
+      "availability": "pending_upload",
+      "remote_size_bytes": null,
+      "remote_sha256": null,
+      "remote_sha256_matches": null,
+      "download_url": null
+    },
+    {
+      "id": "integrated-atlas",
+      "filename": "inte_final.h5ad",
+      "classification": "Pending review",
+      "source": "final/dataset/inte/inte_final.h5ad",
+      "tutorials_or_consumers": "04;paper PBMC atlas;annotation model/reference provenance",
+      "default_relative_path": "datasets/inte_final.h5ad",
+      "original_sources": [
+        "conca_disease/bbknn_all.h5ad"
+      ],
+      "author_confirmed_role": "Formal paper integrated PBMC atlas, including healthy and disease data; identity/use confirmed by author on 2026-11-17.",
+      "manuscript_upstream_dataset_ids": [
+        "integration-geo",
+        "integration-synapse",
+        "riken-sc2018"
+      ],
+      "size_bytes": 145696029571,
+      "sha256": "c661bb9a6a4379655defe6b0ac1b792a0755021880105356251d7beeb90054b3",
+      "shape": [
+        3500797,
+        11211
+      ],
+      "download_repository_type": "dataset",
+      "publication_status": "Pending upload; absent from checked dataset commit",
+      "copy_sha256_verified": true,
+      "version": "Original bytes pinned by SHA256; no published processing release tag assigned",
+      "license_candidate": "CC BY 4.0 only for rights the authors can grant; not approved and does not replace upstream terms",
+      "release_proposal": {
+        "recommended_storage": "HF Datasets",
+        "publication_status": "Pending upload; absent from checked dataset commit",
+        "approved_payload_copy": true,
+        "identity_confirmed": true,
+        "source_rights_cleared": false,
+        "privacy_cleared": false,
+        "payload_state": "Local staging copy present; exact SHA256 verified; public redistribution still Pending review",
+        "local_staging_authorized": true,
+        "public_upload_allowed": false,
+        "repository_id": "LeyiZhang1/PeriClock-data"
+      },
+      "review_note": "Author-confirmed research role; per-source redistribution terms, donor/sample identifiers and age/health metadata require clearance before copy/public release.",
+      "anndata_metadata": {
+        "shape": [
+          3500797,
+          11211
+        ],
+        "X": {
+          "encoding": "csr_matrix",
+          "shape": [
+            3500797,
+            11211
+          ],
+          "dtype": "float64",
+          "stored_entries": 4278296518,
+          "first_stored_values_sample": {
+            "n": 10000,
+            "finite": true,
+            "nonnegative": true,
+            "all_integer_valued": false
+          }
+        },
+        "obs_columns": [
+          "batch",
+          "n_genes_by_counts",
+          "total_counts",
+          "total_counts_mt",
+          "pct_counts_mt",
+          "nCount_RNA",
+          "nFeature_RNA",
+          "Cluster_names",
+          "leiden",
+          "cell_type",
+          "Age",
+          "Age_group",
+          "Individual",
+          "Age_group2",
+          "cell_subtype2",
+          "cell_subtype",
+          "cell_subtype_final",
+          "health_state"
+        ],
+        "uns_keys": [
+          "Age_group_colors",
+          "cell_subtype2_colors",
+          "cell_subtype_colors",
+          "cell_subtype_final_colors",
+          "cell_type_colors",
+          "leiden",
+          "leiden_colors",
+          "log1p",
+          "neighbors",
+          "pca",
+          "rank_genes_groups",
+          "umap"
+        ],
+        "log1p_metadata": true,
+        "raw_present": false,
+        "donor_statistics": {
+          "Individual": {
+            "distinct_nonmissing": 395,
+            "missing": 0
+          },
+          "Age": {
+            "distinct_nonmissing": 89,
+            "missing": 0
+          },
+          "health_state": {
+            "distinct_nonmissing": 2,
+            "missing": 0
+          },
+          "batch": {
+            "distinct_nonmissing": 230,
+            "missing": 0
+          }
+        },
+        "donor_age_pairs": 542,
+        "potentially_identifying_obs_fields": [
+          "batch",
+          "Age",
+          "Age_group",
+          "Individual",
+          "Age_group2",
+          "health_state"
+        ],
+        "gene_index_field": "_index",
+        "gene_names_unique": true,
+        "health_state_cell_counts": {
+          "disease": 956254,
+          "healthy": 2544543
+        },
+        "uns_scalar_text_fields_checked": [
+          "neighbors/connectivities_key",
+          "neighbors/distances_key",
+          "neighbors/params/bbknn/batch_key",
+          "neighbors/params/bbknn/computation",
+          "neighbors/params/method",
+          "neighbors/params/metric",
+          "neighbors/params/use_rep",
+          "rank_genes_groups/params/corr_method",
+          "rank_genes_groups/params/groupby",
+          "rank_genes_groups/params/method",
+          "rank_genes_groups/params/reference"
+        ],
+        "uns_developer_absolute_path_fields": [],
+        "layers": [],
+        "obsm": [
+          "X_pca",
+          "X_umap"
+        ],
+        "obsp": [
+          "connectivities",
+          "distances",
+          "simple_connectivities"
+        ],
+        "var_column_count": 1603,
+        "var_field_families": "mt and source-suffixed gene_ids/feature_types/genome/QC metrics; preserve original schema",
+        "full_expression_matrix_loaded": false,
+        "normalization_state": "log1p metadata present; sampled stored X values nonnegative, finite and noninteger. Exact normalization cannot be proved from metadata/sample alone; do not renormalize or treat as raw counts."
+      },
+      "repo_id": "LeyiZhang1/PeriClock-data",
+      "repository_id": "LeyiZhang1/PeriClock-data",
+      "repo_type": "dataset",
+      "repo_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "repository_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+      "availability_checked_on": "2026-11-18",
+      "revision": null,
+      "availability": "pending_upload",
+      "remote_size_bytes": null,
+      "remote_sha256": null,
+      "remote_sha256_matches": null,
+      "download_url": null
+    },
+    {
+      "id": "atlas",
+      "filename": "bbknn_all.h5ad",
+      "classification": "Pending review",
+      "size_bytes": 145696029571,
+      "sha256": "c661bb9a6a4379655defe6b0ac1b792a0755021880105356251d7beeb90054b3",
+      "tutorials_or_consumers": "04",
+      "source": "conca_disease/bbknn_all.h5ad",
+      "original_sources": [],
+      "copy_sha256_verified": false,
+      "publication_status": "Not approved for redistribution; not staged",
+      "review_note": "Byte-identical to author-confirmed final/dataset/inte/inte_final.h5ad (full streaming SHA256 confirmed). Historical source alias only; no second dataset payload. Tutorial 04 default now uses the canonical inte_final.h5ad basename.",
+      "default_relative_path": "datasets/bbknn_all.h5ad",
+      "shape": [
+        3500797,
+        11211
+      ],
+      "expression_matrix_read": false,
+      "required_by_retained_code": false,
+      "producer_evidence": [
+        {
+          "file": "conca_disease/healthy_model/en_model/en_iter_model/itera_en.ipynb",
+          "cell_indices_zero_based": [
+            3,
+            10,
+            12
+          ],
+          "evidence_kind": "annotation-update-writer",
+          "source_cell_sha256": [
+            "4b75b73a1e746907ae754cd95e78b1a65bb55c8bd2fc280a0ee5020acb2c5e6e",
+            "80a7450abe6dabf92ceea4f89bf17d12661003b852e688eaee60a3b5192fcbc1",
+            "d50228748b99b7b5457b199c265d7ff12be048c58f05b46ea7e346ce51eda4aa"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Reads existing atlas, updates subtype labels and writes it back. This is not proof of the initial raw-data integration/export snapshot."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain.",
+      "manuscript_upstream_dataset_ids": [
+        "integration-geo",
+        "integration-synapse",
+        "riken-sc2018"
+      ],
+      "source_rights_review": "Contains/derives from third-party inputs. Per-study restrictions and derived-data rights are not fully reviewed; neither unrestricted nor restricted status is assumed from public availability alone.",
+      "release_proposal": {
+        "recommended_storage": "HF Datasets",
+        "repository_id": null,
+        "proposed_filename": "bbknn_all.h5ad",
+        "priority": "3: large legacy atlas needed by current 04 lineage mapping",
+        "publication_status": "Pending publication — identity/privacy/source-rights clearance required",
+        "approved_payload_copy": false
+      },
+      "alias_of": "integrated-atlas",
+      "download_repository_type": null
+    },
+    {
+      "id": "example-data",
+      "filename": "sample_10donors.h5ad",
+      "classification": "Pending review",
+      "size_bytes": 710876467,
+      "sha256": "80e65c7304631075c732f979a913bdaa5821fc8f8ca911399c950ea249137b4b",
+      "tutorials_or_consumers": "example",
+      "source": "PeriClock_data/sample_10donors.h5ad",
+      "original_sources": [
+        "https://apps.allenimmunology.org/aifi/resources/imm-health-atlas/downloads/scrna/"
+      ],
+      "copy_sha256_verified": true,
+      "publication_status": "Pending upload; absent from checked dataset commit",
+      "review_note": "Allen Human Immune Health Atlas-derived subset; donor/subject metadata present; exact subset derivation and redistribution rights need review.",
+      "default_relative_path": "datasets/sample_10donors.h5ad",
+      "shape": [
+        152472,
+        32357
+      ],
+      "expression_matrix_read": false,
+      "distinct_donor_count": 10,
+      "required_by_retained_code": true,
+      "download_repository_type": "dataset",
+      "release_proposal": {
+        "recommended_storage": "HF Datasets",
+        "approved_payload_copy": true,
+        "local_staging_authorized": true,
+        "source_rights_cleared": false,
+        "privacy_cleared": false,
+        "public_upload_allowed": false,
+        "payload_state": "Author-supplied local copy present; SHA256 verified; not publicly released",
+        "repository_id": "LeyiZhang1/PeriClock-data",
+        "publication_status": "Pending upload; absent from checked dataset commit"
+      },
+      "repo_id": "LeyiZhang1/PeriClock-data",
+      "repository_id": "LeyiZhang1/PeriClock-data",
+      "repo_type": "dataset",
+      "repo_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "repository_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+      "availability_checked_on": "2026-11-18",
+      "revision": null,
+      "availability": "pending_upload",
+      "remote_size_bytes": null,
+      "remote_sha256": null,
+      "remote_sha256_matches": null,
+      "download_url": null
+    },
+    {
+      "id": "small-reference-candidate",
+      "filename": "inte_final_healthy_ref100k.h5ad",
+      "classification": "Pending review",
+      "size_bytes": 360455410,
+      "sha256": "44a71aaeec2e200491d1be3a5ef660ec5678300ce9aa0941c66556048f667fb7",
+      "tutorials_or_consumers": "optional annotation candidate, not a replacement for 01",
+      "source": "PeriClock_data/inte_final_healthy_ref100k.h5ad",
+      "original_sources": [],
+      "copy_sha256_verified": true,
+      "publication_status": "Pending upload; absent from checked dataset commit",
+      "review_note": "Author-confirmed healthy modeling reference subset for lower-memory annotation. Exact sampling/export procedure is not supplied. Existing analysis examples demonstrate method-specific use, not universal chunking or equivalence to joint annotation.",
+      "default_relative_path": "datasets/inte_final_healthy_ref100k.h5ad",
+      "shape": [
+        100000,
+        11211
+      ],
+      "expression_matrix_read": false,
+      "required_by_retained_code": false,
+      "producer_evidence": [
+        {
+          "file": "PeriClock_data/reference_validation.ipynb",
+          "cell_indices_zero_based": [
+            1
+          ],
+          "evidence_kind": "reader-only",
+          "source_cell_sha256": [
+            "2e3d8638c129205f0c86b76b92751bd8ddbaebc2fca5ab85f2937db428bfc9d0"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Validation loads ref100k; no exact sampler/exporter established."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain.",
+      "manuscript_upstream_dataset_ids": [
+        "integration-geo",
+        "integration-synapse",
+        "riken-sc2018"
+      ],
+      "source_rights_review": "Contains/derives from third-party inputs. Per-study restrictions and derived-data rights are not fully reviewed; neither unrestricted nor restricted status is assumed from public availability alone.",
+      "release_proposal": {
+        "recommended_storage": "HF Datasets",
+        "approved_payload_copy": true,
+        "local_staging_authorized": true,
+        "source_rights_cleared": false,
+        "privacy_cleared": false,
+        "public_upload_allowed": false,
+        "payload_state": "Author-supplied local copy present; SHA256 verified; not publicly released",
+        "repository_id": "LeyiZhang1/PeriClock-data",
+        "publication_status": "Pending upload; absent from checked dataset commit"
+      },
+      "download_repository_type": "dataset",
+      "reference_compatibility": "100000 cells x 11211 genes; cell_subtype_final and batch labels. Annotation subset, not a replacement training cohort. Query batching requires method-specific validation.",
+      "repo_id": "LeyiZhang1/PeriClock-data",
+      "repository_id": "LeyiZhang1/PeriClock-data",
+      "repo_type": "dataset",
+      "repo_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "repository_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+      "availability_checked_on": "2026-11-18",
+      "revision": null,
+      "availability": "pending_upload",
+      "remote_size_bytes": null,
+      "remote_sha256": null,
+      "remote_sha256_matches": null,
+      "download_url": null
+    },
+    {
+      "id": "symphony-candidate",
+      "filename": "symphony_reference.h5ad",
+      "classification": "Pending review",
+      "size_bytes": 610144522,
+      "sha256": "50d7b85d32dbd602b5d73b11b347771bafd19ff650f23e67deac964397d0c9ca",
+      "tutorials_or_consumers": "optional annotation candidate",
+      "source": "PeriClock_data/symphony_reference.h5ad",
+      "original_sources": [],
+      "copy_sha256_verified": true,
+      "publication_status": "Pending upload; absent from checked dataset commit",
+      "review_note": "Query-dependent reference built from the 100k healthy subset with shared-gene selection, 2500 HVGs, scaling, PCA and Harmony. X is standardized and includes negative values. Use prepared-reference mapping with compatible queries; do not normalize or rebuild this cache as raw expression.",
+      "default_relative_path": "datasets/symphony_reference.h5ad",
+      "shape": [
+        28874,
+        2500
+      ],
+      "expression_matrix_read": false,
+      "required_by_retained_code": false,
+      "producer_evidence": [
+        {
+          "file": "final/fig3.ipynb",
+          "cell_indices_zero_based": [
+            97,
+            98,
+            99
+          ],
+          "evidence_kind": "writer",
+          "source_cell_sha256": [
+            "a4380f0b2f35feba7aa858c6877acbd81bcf0cb31056ca649f8c27b4a7704792",
+            "80e49f7af196a7ca7711f89f9e5e45f46f28732a1baaffc973cb4e386d15b57d",
+            "73ef9a8cb2727c1898361c0437733564cfbbec17bef2558b3cc7dfd8c7f32f48"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Source code loads the 100k healthy subset as reference, builds against the in-memory construction query, then writes this cache. Query-specific gene intersection precedes HVG selection; standardized X and PCA/Harmony are retained. Recorded donor-batched mapping output is an example, not a general accuracy/equivalence benchmark."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain.",
+      "manuscript_upstream_dataset_ids": [
+        "integration-geo",
+        "integration-synapse",
+        "riken-sc2018"
+      ],
+      "source_rights_review": "Contains/derives from third-party inputs. Per-study restrictions and derived-data rights are not fully reviewed; neither unrestricted nor restricted status is assumed from public availability alone.",
+      "release_proposal": {
+        "recommended_storage": "HF Datasets",
+        "approved_payload_copy": true,
+        "local_staging_authorized": true,
+        "source_rights_cleared": false,
+        "privacy_cleared": false,
+        "public_upload_allowed": false,
+        "payload_state": "Author-supplied local copy present; SHA256 verified; not publicly released",
+        "repository_id": "LeyiZhang1/PeriClock-data",
+        "publication_status": "Pending upload; absent from checked dataset commit"
+      },
+      "download_repository_type": "dataset",
+      "reference_compatibility": "Use periclock.annotation.annotate_symphony for prepared-reference mapping, subject to compatible gene/preprocessing state. The method=symphony dispatcher builds a reference from base expression instead. Arbitrary-query compatibility and batch/full equivalence are not established.",
+      "repo_id": "LeyiZhang1/PeriClock-data",
+      "repository_id": "LeyiZhang1/PeriClock-data",
+      "repo_type": "dataset",
+      "repo_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "repository_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+      "availability_checked_on": "2026-11-18",
+      "revision": null,
+      "availability": "pending_upload",
+      "remote_size_bytes": null,
+      "remote_sha256": null,
+      "remote_sha256_matches": null,
+      "download_url": null
+    },
+    {
+      "id": "features-200",
+      "filename": "PeriClock-200s_features_matrix.csv",
+      "classification": "Pending review",
+      "size_bytes": 1106407487,
+      "sha256": "8a97e820c035c78c74b2f726826dccb68becd0ec8e969754564a8c67e8f27564",
+      "tutorials_or_consumers": "02",
+      "source": "conca_disease/healthy_model/aging_model_train_features200.csv",
+      "original_sources": [],
+      "copy_sha256_verified": true,
+      "publication_status": "Pending upload; absent from checked dataset commit",
+      "review_note": "Contains donor-level identifiers/index and ages plus high-dimensional expression/proportions; third-party derived data rights and re-identification risk are unresolved.",
+      "default_relative_path": "datasets/PeriClock-200s_features_matrix.csv",
+      "required_by_retained_code": true,
+      "producer_evidence": [
+        {
+          "file": "conca_disease/healthy_model/build_feature_matrix.ipynb",
+          "cell_indices_zero_based": [
+            15,
+            17
+          ],
+          "evidence_kind": "related-processing",
+          "source_cell_sha256": [
+            "25577097b006f19189a571e22c6a9b44e51c6495f9d21b5e772f071d05c7d107",
+            "12d5078e4f334eccf33b035e6033fac33a97fb2dd2d5093898b0a5e611d2af36"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Feature construction/export exists but writes en_aging_model_train_features.csv, not the exact requested aging_model_train_features200.csv. Do not silently rename/substitute."
+        },
+        {
+          "file": "final/fig3.ipynb",
+          "cell_indices_zero_based": [
+            4,
+            18
+          ],
+          "evidence_kind": "reader",
+          "source_cell_sha256": [
+            "4de5e69ea5db1b51fd3f6bc4a2587da9befc3de777e330fdb48f37426a3e9c98",
+            "f6f50ec118a73c735d76d36f842fbcaaa2bdbd756d9d6472056dbc4ca8282c63"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Retained final research code reads the requested 209-row CSV; exact export chain remains unconfirmed."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain.",
+      "manuscript_upstream_dataset_ids": [
+        "integration-geo",
+        "integration-synapse",
+        "riken-sc2018"
+      ],
+      "source_rights_review": "Includes donor-level expression/proportions and ages/identifiers. Self-processing is not independent permission to redistribute the upstream cohorts.",
+      "release_proposal": {
+        "recommended_storage": "HF Datasets",
+        "publication_status": "Pending upload; absent from checked dataset commit",
+        "approved_payload_copy": true,
+        "identity_confirmed": true,
+        "source_rights_cleared": false,
+        "privacy_cleared": false,
+        "payload_state": "Local staging copy present; exact SHA256 verified; public redistribution still Pending review",
+        "local_staging_authorized": true,
+        "public_upload_allowed": false,
+        "repository_id": "LeyiZhang1/PeriClock-data"
+      },
+      "shape": [
+        209,
+        538178
+      ],
+      "download_repository_type": "dataset",
+      "version": "Original bytes pinned by SHA256; no published processing release tag assigned",
+      "license_candidate": "CC BY 4.0 only for rights the authors can grant; not approved and does not replace upstream terms",
+      "training_matrix_metadata": {
+        "shape": [
+          209,
+          538178
+        ],
+        "index_name": null,
+        "column_order_sha256_newline_utf8": "31b9d62541d276a41c06c62547bdde37d42c567b0f080dcb7f0588edb122ea9d",
+        "columns_unique": true,
+        "ratio_column_count": 48,
+        "has_Age": true,
+        "has_Individual_column": true,
+        "saved_model_feature_checks": {
+          "PeriClock-200s": {
+            "selected_feature_count": 67,
+            "selected_missing": 0,
+            "preprocessing_input_count": 538176,
+            "preprocessing_inputs_missing": 0,
+            "preprocessing_column_order_sha256_newline_utf8": "e2d8310b94aa991b814e7089cd8d8c9d626b860a813153a35630909fe1ecdeda",
+            "order_policy": "Use saved prop_cols/expr_cols and selected_features (or bulk model_info.feature_names); do not sort or assume physical matrix order equals estimator order."
+          }
+        }
+      },
+      "required_reproduction_resource": true,
+      "reconstruction_gap": "Retained tutorials read this prepared matrix; they do not supply an end-to-end AnnData-to-identical-matrix build with all upstream snapshots.",
+      "original_archive_filename": "aging_model_train_features200.csv",
+      "repo_id": "LeyiZhang1/PeriClock-data",
+      "repository_id": "LeyiZhang1/PeriClock-data",
+      "repo_type": "dataset",
+      "repo_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "repository_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+      "availability_checked_on": "2026-11-18",
+      "revision": null,
+      "availability": "pending_upload",
+      "remote_size_bytes": null,
+      "remote_sha256": null,
+      "remote_sha256_matches": null,
+      "download_url": null
+    },
+    {
+      "id": "features-700",
+      "filename": "PeriClock-700s_features_matrix.csv",
+      "classification": "Pending review",
+      "size_bytes": 3911716059,
+      "sha256": "bb44f97f05b4e188d7423e4591b75e60394c777f912b957e969f76fd333ab20a",
+      "tutorials_or_consumers": "02",
+      "source": "conca_disease/healthy_model/en_model/en_iter_model/merged_vd4.csv",
+      "original_sources": [
+        "https://cellxgene.cziscience.com/collections/ced320a1-29f3-47c1-a735-513c7084d508"
+      ],
+      "copy_sha256_verified": true,
+      "publication_status": "Pending upload; absent from checked dataset commit",
+      "review_note": "Contains donor-level identifiers/index and ages plus high-dimensional expression/proportions; third-party derived data rights and re-identification risk are unresolved.",
+      "default_relative_path": "datasets/PeriClock-700s_features_matrix.csv",
+      "required_by_retained_code": true,
+      "producer_evidence": [
+        {
+          "file": "conca_disease/healthy_model/en_model/en_iter_model/itera_en.ipynb",
+          "cell_indices_zero_based": [
+            58,
+            60,
+            62,
+            63,
+            68,
+            70
+          ],
+          "evidence_kind": "related-processing",
+          "source_cell_sha256": [
+            "15c5b83954d5de48a19a6fdd5b6782ed1ef0fe7e132a70f1b4cc0c4ea934370f",
+            "ea59f80f57f14407ea313a49387caab6e9e1eacd6416edc04202bd581299d6ad",
+            "ca33b00fec2ef72ec9d649356224f616165347dd3396d4ad4c31d48e5d387d5f",
+            "a62bed08a0694052c15ab6f2c28d3a2bfab394e5566339001a4aced6102e861f",
+            "f00491ddc794bf7b224298b51a8033fc27819c084f824c8a72e2bfcbae18991f",
+            "99d4c487fcf90c7bd0427082b78114ce18b8772bdd3ec7dd58c113bf8590e977"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Builds expansion features and merges them with prior features, but exports merged_features.csv. Exact merged_vd4.csv export is not established by these cells."
+        },
+        {
+          "file": "final/fig3.ipynb",
+          "cell_indices_zero_based": [
+            35
+          ],
+          "evidence_kind": "reader",
+          "source_cell_sha256": [
+            "93cd083b02a77a456c873e746c97d0bf22eb3673e037c185831e2b488de8efeb"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Reads the requested 712-row CSV."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain.",
+      "manuscript_upstream_dataset_ids": [
+        "integration-geo",
+        "integration-synapse",
+        "riken-sc2018",
+        "aida"
+      ],
+      "source_rights_review": "Includes donor-level expression/proportions and ages/identifiers. Self-processing is not independent permission to redistribute the upstream cohorts.",
+      "release_proposal": {
+        "recommended_storage": "HF Datasets",
+        "publication_status": "Pending upload; absent from checked dataset commit",
+        "approved_payload_copy": true,
+        "identity_confirmed": true,
+        "source_rights_cleared": false,
+        "privacy_cleared": false,
+        "payload_state": "Local staging copy present; exact SHA256 verified; public redistribution still Pending review",
+        "local_staging_authorized": true,
+        "public_upload_allowed": false,
+        "repository_id": "LeyiZhang1/PeriClock-data"
+      },
+      "shape": [
+        712,
+        528915
+      ],
+      "download_repository_type": "dataset",
+      "version": "Original bytes pinned by SHA256; no published processing release tag assigned",
+      "license_candidate": "CC BY 4.0 only for rights the authors can grant; not approved and does not replace upstream terms",
+      "training_matrix_metadata": {
+        "shape": [
+          712,
+          528915
+        ],
+        "index_name": null,
+        "column_order_sha256_newline_utf8": "3a8949d8e63d16e992b404fae8ba6ab2b0bcd53321be319beaa2340d19b943a9",
+        "columns_unique": true,
+        "ratio_column_count": 48,
+        "has_Age": true,
+        "has_Individual_column": true,
+        "saved_model_feature_checks": {
+          "PeriClock-700s": {
+            "selected_feature_count": 119,
+            "selected_missing": 0,
+            "preprocessing_input_count": 528913,
+            "preprocessing_inputs_missing": 0,
+            "preprocessing_column_order_sha256_newline_utf8": "849a8fc4d0b675e3999ad765a9bcd955102a2ada3b2301c818f905400646c5c3",
+            "order_policy": "Use saved prop_cols/expr_cols and selected_features (or bulk model_info.feature_names); do not sort or assume physical matrix order equals estimator order."
+          }
+        },
+        "csv_reader_note": "Preserve original blank first header. Original pandas.read_csv interprets it as Unnamed: 0, which is in the frozen preprocessing feature list; do not drop it or rewrite the CSV."
+      },
+      "required_reproduction_resource": true,
+      "reconstruction_gap": "Retained tutorials read this prepared matrix; they do not supply an end-to-end AnnData-to-identical-matrix build with all upstream snapshots.",
+      "original_archive_filename": "merged_vd4.csv",
+      "repo_id": "LeyiZhang1/PeriClock-data",
+      "repository_id": "LeyiZhang1/PeriClock-data",
+      "repo_type": "dataset",
+      "repo_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "repository_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+      "availability_checked_on": "2026-11-18",
+      "revision": null,
+      "availability": "pending_upload",
+      "remote_size_bytes": null,
+      "remote_sha256": null,
+      "remote_sha256_matches": null,
+      "download_url": null
+    },
+    {
+      "id": "features-1000",
+      "filename": "PeriClock-1000s_PeriClock_features_matrix.pkl",
+      "classification": "Pending review",
+      "size_bytes": 2412549629,
+      "sha256": "1b46ec5adc4f5350746852fe80f20c7c2403257848af1103e0bb9b78ad6470ac",
+      "tutorials_or_consumers": "02;05;06;07",
+      "source": "conca_disease/healthy_model/en_model/en_iter_model/merged_cima_vd4_features.pkl",
+      "original_sources": [
+        "https://cellxgene.cziscience.com/collections/ced320a1-29f3-47c1-a735-513c7084d508",
+        "https://db.cngb.org/trueblood/cima/resource"
+      ],
+      "copy_sha256_verified": true,
+      "publication_status": "Pending upload; absent from checked dataset commit",
+      "review_note": "Contains donor-level identifiers/index and ages plus high-dimensional expression/proportions; third-party derived data rights and re-identification risk are unresolved.",
+      "default_relative_path": "datasets/PeriClock-1000s_PeriClock_features_matrix.pkl",
+      "required_by_retained_code": true,
+      "producer_evidence": [
+        {
+          "file": "conca_disease/healthy_model/en_model/en_iter_model/iter_en1000_cima.ipynb",
+          "cell_indices_zero_based": [
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            17,
+            18,
+            19
+          ],
+          "evidence_kind": "writer",
+          "source_cell_sha256": [
+            "11f07ad955121d4a8d84805d640380c6fb595377778e586efedf81eec2dd5584",
+            "7dc1e8296ea60812e42f76045fc9890d0fdd31ba2b7a453e43723f68616fc1c8",
+            "009e76e6ca5318929d47d09bbeb35e0fba16ed5827657e0fe5864849194350ba",
+            "2d4b6a457fd62ca3f4dab9df74f4b5e291284409f971ac711ef2010ec125d4df",
+            "60bc451dc1a4e183f266f5879f5282aa0e9388b0cb8f8b4be932fbce58ac05b7",
+            "7438650a3d56c091f7bcc0a64e29ca7355328dcc3057d253f1a26d24044f80ae",
+            "964db143f7b532fcf3c111b4b61ca75d1e954ad555092462139983a8c9181280",
+            "33672ec5978dd09d1e770391fcfbca9d670cdbddb5de720f7a70d192e705801d",
+            "7de30f3f2f3af892e513ae24e2bc620b116fa184b6893672accc66f848b6e10e",
+            "a88dca877cb60a5f4e75441c6c33fe3bc7927e4eb0b1bbad0e988f9acc7f9291"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Creates CIMA per-donor subtype proportion/expression features, combines with merged_vd4.csv using inner-column concatenation, converts to float32, sets Individual index and saves this exact basename. Upstream annotation snapshots still need confirmation."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain.",
+      "manuscript_upstream_dataset_ids": [
+        "integration-geo",
+        "integration-synapse",
+        "riken-sc2018",
+        "aida",
+        "cima"
+      ],
+      "source_rights_review": "Includes donor-level expression/proportions and ages/identifiers. Self-processing is not independent permission to redistribute the upstream cohorts.",
+      "release_proposal": {
+        "recommended_storage": "HF Datasets",
+        "publication_status": "Pending upload; absent from checked dataset commit",
+        "approved_payload_copy": true,
+        "identity_confirmed": true,
+        "source_rights_cleared": false,
+        "privacy_cleared": false,
+        "payload_state": "Local staging copy present; exact SHA256 verified; public redistribution still Pending review",
+        "local_staging_authorized": true,
+        "public_upload_allowed": false,
+        "repository_id": "LeyiZhang1/PeriClock-data"
+      },
+      "shape": [
+        1133,
+        528865
+      ],
+      "download_repository_type": "dataset",
+      "version": "Original bytes pinned by SHA256; no published processing release tag assigned",
+      "license_candidate": "CC BY 4.0 only for rights the authors can grant; not approved and does not replace upstream terms",
+      "training_matrix_metadata": {
+        "shape": [
+          1133,
+          528865
+        ],
+        "index_name": "Individual",
+        "column_order_sha256_newline_utf8": "5d81364471611eb8549f45a04a3bbc898b4afaf4d89675e969ef4ea1702e3999",
+        "columns_unique": true,
+        "ratio_column_count": 48,
+        "has_Age": true,
+        "has_Individual_column": false,
+        "saved_model_feature_checks": {
+          "PeriClock-1000s": {
+            "selected_feature_count": 138,
+            "selected_missing": 0,
+            "preprocessing_input_count": 528864,
+            "preprocessing_inputs_missing": 0,
+            "preprocessing_column_order_sha256_newline_utf8": "1713a6af9930b17e54095aff30cebcad4346ae2184901ba34517edf7c2a781af",
+            "order_policy": "Use saved prop_cols/expr_cols and selected_features (or bulk model_info.feature_names); do not sort or assume physical matrix order equals estimator order."
+          },
+          "PeriClock": {
+            "selected_feature_count": 173,
+            "selected_missing": 0,
+            "preprocessing_input_count": 528864,
+            "preprocessing_inputs_missing": 0,
+            "preprocessing_column_order_sha256_newline_utf8": "1713a6af9930b17e54095aff30cebcad4346ae2184901ba34517edf7c2a781af",
+            "order_policy": "Use saved prop_cols/expr_cols and selected_features (or bulk model_info.feature_names); do not sort or assume physical matrix order equals estimator order."
+          }
+        }
+      },
+      "required_reproduction_resource": true,
+      "reconstruction_gap": "Retained tutorials read this prepared matrix; they do not supply an end-to-end AnnData-to-identical-matrix build with all upstream snapshots.",
+      "original_archive_filename": "merged_cima_vd4_features.pkl",
+      "repo_id": "LeyiZhang1/PeriClock-data",
+      "repository_id": "LeyiZhang1/PeriClock-data",
+      "repo_type": "dataset",
+      "repo_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "repository_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+      "availability_checked_on": "2026-11-18",
+      "revision": null,
+      "availability": "pending_upload",
+      "remote_size_bytes": null,
+      "remote_sha256": null,
+      "remote_sha256_matches": null,
+      "download_url": null
+    },
+    {
+      "id": "bulk-training",
+      "filename": "PeriClock-bulk_features_matrix.pkl",
+      "classification": "Pending review",
+      "size_bytes": 50053770,
+      "sha256": "fcf6ea8db66608200884872b0c5a82c6328d811558e0bd369625fd738e5983c5",
+      "tutorials_or_consumers": "10",
+      "source": "conca_disease/healthy_model/bulk_model/data/df_bulk.pkl",
+      "original_sources": [],
+      "copy_sha256_verified": true,
+      "publication_status": "Uploaded; available to authorized users (repository currently private)",
+      "review_note": "Contains donor-level identifiers/index and ages plus high-dimensional expression/proportions; third-party derived data rights and re-identification risk are unresolved.",
+      "default_relative_path": "datasets/PeriClock-bulk_features_matrix.pkl",
+      "required_by_retained_code": true,
+      "producer_evidence": [
+        {
+          "file": "conca_disease/healthy_model/bulk_model/bulk_model.ipynb",
+          "cell_indices_zero_based": [
+            3,
+            4,
+            5,
+            31
+          ],
+          "evidence_kind": "writer-and-reader",
+          "source_cell_sha256": [
+            "e358add28c261bc42863bc309016c776d591b16c21174f8c79b96ffe0ec5b212",
+            "82affec097b5f14ded10b7aa19bc4fd98d8d1bbfcd9c2aee79502a45de6513d1",
+            "0598a2a001b1e070ce912da96d9411d6a157dc30e6de8076aabf89f3178e64ce",
+            "3326a198e46e4a66fe02ab1926dd4ea916b5c99f22c2bc1199c5ffd4f18f72c5"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Builds from the full-cohort feature matrix by proportion-weighted aggregation of subtype expression (renormalizing proportion sums). Writes df_bulk.pkl, later reads data/df_bulk.pkl; the relocation/execution snapshot is not recorded."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain.",
+      "manuscript_upstream_dataset_ids": [
+        "integration-geo",
+        "integration-synapse",
+        "riken-sc2018",
+        "aida",
+        "cima"
+      ],
+      "source_rights_review": "Includes donor-level expression/proportions and ages/identifiers. Self-processing is not independent permission to redistribute the upstream cohorts.",
+      "release_proposal": {
+        "recommended_storage": "HF Datasets",
+        "publication_status": "Uploaded; available to authorized users (repository currently private)",
+        "approved_payload_copy": true,
+        "identity_confirmed": true,
+        "source_rights_cleared": false,
+        "privacy_cleared": false,
+        "payload_state": "Local staging copy present; exact SHA256 verified; public redistribution still Pending review",
+        "local_staging_authorized": true,
+        "public_upload_allowed": false,
+        "repository_id": "LeyiZhang1/PeriClock-data"
+      },
+      "shape": [
+        1133,
+        11018
+      ],
+      "download_repository_type": "dataset",
+      "version": "Original bytes pinned by SHA256; no published processing release tag assigned",
+      "license_candidate": "CC BY 4.0 only for rights the authors can grant; not approved and does not replace upstream terms",
+      "training_matrix_metadata": {
+        "shape": [
+          1133,
+          11018
+        ],
+        "index_name": "Individual",
+        "column_order_sha256_newline_utf8": "b9265a19785a3ba848e71503f736970547fc3681c0dacf16ea9323327cea40fb",
+        "columns_unique": true,
+        "ratio_column_count": 0,
+        "has_Age": true,
+        "has_Individual_column": false,
+        "saved_model_feature_checks": {
+          "PeriClock-bulk": {
+            "selected_feature_count": 131,
+            "selected_missing": 0,
+            "preprocessing_input_count": 131,
+            "preprocessing_inputs_missing": 0,
+            "preprocessing_column_order_sha256_newline_utf8": "e7c7695e373034829789a5e78635df0b4661ec7e0799f0dd0e98f8fe007baf93",
+            "order_policy": "Use saved prop_cols/expr_cols and selected_features (or bulk model_info.feature_names); do not sort or assume physical matrix order equals estimator order."
+          }
+        }
+      },
+      "required_reproduction_resource": true,
+      "reconstruction_gap": "Retained tutorials read this prepared matrix; they do not supply an end-to-end AnnData-to-identical-matrix build with all upstream snapshots.",
+      "original_archive_filename": "df_bulk.pkl",
+      "repo_id": "LeyiZhang1/PeriClock-data",
+      "repository_id": "LeyiZhang1/PeriClock-data",
+      "repo_type": "dataset",
+      "repo_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "repository_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+      "availability_checked_on": "2026-11-18",
+      "revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+      "availability": "available",
+      "remote_size_bytes": 50053770,
+      "remote_sha256": "fcf6ea8db66608200884872b0c5a82c6328d811558e0bd369625fd738e5983c5",
+      "remote_sha256_matches": true,
+      "download_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data/resolve/7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef/PeriClock-bulk_features_matrix.pkl"
+    },
+    {
+      "id": "ko-ages",
+      "filename": "perturbed_ages.csv",
+      "classification": "Pending review",
+      "size_bytes": 264243388,
+      "sha256": "b0929f47a024185f62b9cd2e02cf3799022f077c4806f27f693ea067e983615c",
+      "tutorials_or_consumers": "08",
+      "source": "conca_disease/descope_pertb/data/perturbed_ages.csv",
+      "original_sources": [],
+      "copy_sha256_verified": true,
+      "publication_status": "Pending upload; absent from checked dataset commit",
+      "review_note": "Projected original six-column donor-by-KO table: delta_age equals ko_pred_age minus baseline_pred_age. Upstream null_pred_age/KO-minus-null are distinct fields not included in this CSV. Rights/privacy review remains pending.",
+      "default_relative_path": "datasets/perturbed_ages.csv",
+      "required_by_retained_code": true,
+      "producer_evidence": [
+        {
+          "file": "conca_disease/descope_pertb/perb_result_analysis.ipynb",
+          "cell_indices_zero_based": [
+            3,
+            4,
+            5
+          ],
+          "evidence_kind": "projection-writer",
+          "source_cell_sha256": [
+            "02425a5265fa0714ff5e158ac2639989815f1cb764c446050a0d180502f7746e",
+            "83dc4c5326af52cdf20b23734a04e6393e19c7f080105d6d2810568fc9e48765",
+            "9f57c44ac4a681c8b3da8f2eacb35dc6932d91fe980384021230af74a7da7025"
+          ],
+          "execution_reproduced_for_this_review": false,
+          "note": "Exact source table and original projection code confirmed: delta_age_vs_baseline is renamed delta_age. The upstream worker separately computes KO-minus-null. Source formula and all-row projection verified; no inference or statistics rerun."
+        }
+      ],
+      "processing_version": "No published processing release/tag assigned; reviewed bytes pinned by this entry's SHA256. Source-cell hashes identify inspected code, not a completed execution provenance chain.",
+      "manuscript_upstream_dataset_ids": [
+        "cima"
+      ],
+      "source_rights_review": "Contains/derives from third-party inputs. Per-study restrictions and derived-data rights are not fully reviewed; neither unrestricted nor restricted status is assumed from public availability alone.",
+      "release_proposal": {
+        "recommended_storage": "HF Datasets",
+        "repository_id": "LeyiZhang1/PeriClock-data",
+        "proposed_filename": "perturbed_ages.csv",
+        "priority": "2: confirm matched-null derivation and donor-data clearance",
+        "publication_status": "Pending upload; absent from checked dataset commit",
+        "approved_payload_copy": true,
+        "local_staging_authorized": true,
+        "source_rights_cleared": false,
+        "privacy_cleared": false,
+        "public_upload_allowed": false,
+        "payload_state": "Local staging copy present; exact SHA256 verified; public redistribution still Pending review"
+      },
+      "download_repository_type": "dataset",
+      "age_effect_definition": {
+        "rows": 3445043,
+        "donors": 421,
+        "genes": 8183,
+        "baseline_pred_age": "PeriClock prediction on observed unperturbed expression",
+        "ko_pred_age": "PeriClock prediction after observed-expression write-back of log1p(mu_KO)-log1p(mu_zero_embedding_null), with cell proportions fixed",
+        "delta_age": "ko_pred_age - baseline_pred_age; projected from upstream delta_age_vs_baseline",
+        "matched_null": "Same control cells with a zero perturbation embedding in DeSCOPE; upstream null_pred_age passes observed expression through the matched clock-assembly route",
+        "null_pred_age_in_payload": false,
+        "tutorial_08": "Uses stored delta_age directly; no baseline substitution or recomputation",
+        "source_projection_agreement": "All 3445043 rows and sample/gene order match upstream six-column projection exactly",
+        "maximum_delta_formula_roundoff": 2.1316282072803006e-14,
+        "maximum_upstream_null_vs_baseline_age_difference": 7.621997703211036e-06,
+        "inference_reexecuted": false
+      },
+      "repo_id": "LeyiZhang1/PeriClock-data",
+      "repository_id": "LeyiZhang1/PeriClock-data",
+      "repo_type": "dataset",
+      "repo_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "repository_url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "requires_authentication": true,
+      "remote_snapshot_revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+      "availability_checked_on": "2026-11-18",
+      "revision": null,
+      "availability": "pending_upload",
+      "remote_size_bytes": null,
+      "remote_sha256": null,
+      "remote_sha256_matches": null,
+      "download_url": null
+    },
+    {
+      "id": "hnscc",
+      "filename": "HNSCC_Blood_celltypist_annotated.h5ad",
+      "classification": "External",
+      "size_bytes": 2430848758,
+      "sha256": "dd9150bd47f3ab898a49807eaf103e67666a397ba195650bafd90e94de597509",
+      "tutorials_or_consumers": "09;10",
+      "source": "conca_disease/healthy_model/disease_valid_dataset/tumor/HNSCC/exp/HNSCC_Blood_data/HNSCC_Blood_celltypist_annotated.h5ad",
+      "original_sources": [
+        "https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA027702",
+        "https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA028161",
+        "https://www.nature.com/articles/s41591-025-03873-7"
+      ],
+      "copy_sha256_verified": false,
+      "publication_status": "Not approved for redistribution; not staged",
+      "review_note": "Patient clinical identifiers, stage, age and response present; original study author-provided file; no redistribution approval.",
+      "default_relative_path": "datasets/HNSCC_Blood_celltypist_annotated.h5ad",
+      "shape": [
+        99113,
+        23856
+      ],
+      "expression_matrix_read": false,
+      "required_by_retained_code": true
+    },
+    {
+      "id": "nsclc",
+      "filename": "GSE306542_Symphony_annotated.h5ad",
+      "classification": "External",
+      "size_bytes": 181915477,
+      "sha256": "8cf177733ca64dc7acb6d5888df5eb86b4715fbef0f464458d602c890242de42",
+      "tutorials_or_consumers": "09;10",
+      "source": "conca_disease/healthy_model/disease_valid_dataset/tumor/NSCLC/symphony/GSE306542_Symphony_annotated.h5ad",
+      "original_sources": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE306542"
+      ],
+      "copy_sha256_verified": false,
+      "publication_status": "Not approved for redistribution; not staged",
+      "review_note": "GSE306542-derived annotated clinical input; raw GEO data are not this prepared artifact.",
+      "default_relative_path": "datasets/GSE306542_Symphony_annotated.h5ad",
+      "shape": [
+        22740,
+        22899
+      ],
+      "expression_matrix_read": false,
+      "required_by_retained_code": true
+    },
+    {
+      "id": "GO_Biological_Process_2023",
+      "filename": "GO_Biological_Process_2023.gmt",
+      "classification": "External",
+      "size_bytes": 1515463,
+      "sha256": "e8f4b6139442cb67514d4fa053f89612e600a73613ef6e17c8b5d301c997192a",
+      "tutorials_or_consumers": "07;08",
+      "source": "conca_disease/descope_pertb/results/KO_enrichment/GO_Biological_Process_2023.gmt",
+      "original_sources": [
+        "https://maayanlab.cloud/Enrichr/#libraries"
+      ],
+      "copy_sha256_verified": false,
+      "publication_status": "Not approved for redistribution; not staged",
+      "review_note": "Third-party Enrichr library; local cache is explicit input in original 08, optional for 07 which uses get_library; no redistribution permission inferred.",
+      "default_relative_path": "external/enrichr/GO_Biological_Process_2023.gmt",
+      "required_by_retained_code": true
+    },
+    {
+      "id": "Reactome_2022",
+      "filename": "Reactome_2022.gmt",
+      "classification": "External",
+      "size_bytes": 802548,
+      "sha256": "b8eab15a703ec8eb03ecec6b9886aeab3c6e7f07d0cb5306e23665af8d74fa56",
+      "tutorials_or_consumers": "07;08",
+      "source": "conca_disease/descope_pertb/results/KO_enrichment/Reactome_2022.gmt",
+      "original_sources": [
+        "https://maayanlab.cloud/Enrichr/#libraries"
+      ],
+      "copy_sha256_verified": false,
+      "publication_status": "Not approved for redistribution; not staged",
+      "review_note": "Third-party Enrichr library; local cache is explicit input in original 08, optional for 07 which uses get_library; no redistribution permission inferred.",
+      "default_relative_path": "external/enrichr/Reactome_2022.gmt",
+      "required_by_retained_code": true
+    },
+    {
+      "id": "nsclc-counts",
+      "filename": "GSE306542_processed.h5ad",
+      "classification": "External",
+      "size_bytes": null,
+      "sha256": null,
+      "tutorials_or_consumers": "10",
+      "default_relative_path": "datasets/GSE306542_processed.h5ad",
+      "publication_status": "Exact prepared artifact not found",
+      "original_sources": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE306542"
+      ],
+      "review_note": "GEO supplies upstream study data, not necessarily the original prepared raw-count AnnData. Obtain or reconstruct with verified source preprocessing; do not substitute the annotated/log1p AnnData."
+    },
+    {
+      "id": "Arial",
+      "classification": "External",
+      "size_bytes": 4341408,
+      "sha256": null,
+      "files": [
+        {
+          "filename": "ARIALN.TTF",
+          "size_bytes": 175956,
+          "sha256": "cad552553cf2a75afca01955751aaa115e2a64fd6c6eea42e1fbd236630b7e0a"
+        },
+        {
+          "filename": "ARIALNB.TTF",
+          "size_bytes": 180740,
+          "sha256": "6c4a4b643461def5411e0217b74a625dcf2fb681252ef5da1db0af4eae80aa7e"
+        },
+        {
+          "filename": "ARIALNBI.TTF",
+          "size_bytes": 180084,
+          "sha256": "161b859efd20c69ddebb23012a49f4f2030d56a0c1b9bcfd4df753217ce3e358"
+        },
+        {
+          "filename": "ARIALNI.TTF",
+          "size_bytes": 181124,
+          "sha256": "faf73aa7ce40b77ad19c09507a2263fe3f3ce9fa5642e8a1cd54fb3c9f52d599"
+        },
+        {
+          "filename": "arial.ttf",
+          "size_bytes": 1036584,
+          "sha256": "c9b76220a5be42ead4733611e417cd65c5fd8aeaa33eb56576ac378a37d130a1"
+        },
+        {
+          "filename": "arialbd.ttf",
+          "size_bytes": 980756,
+          "sha256": "766f06ac8761f82f25d032a220e89438f6064591af9915061f20b949efdedf69"
+        },
+        {
+          "filename": "arialbi.ttf",
+          "size_bytes": 721144,
+          "sha256": "e432c1b3568bd207e30e3d52d41e6431ea53a679eb52dd79b1a36aa6a4f3b994"
+        },
+        {
+          "filename": "ariali.ttf",
+          "size_bytes": 717428,
+          "sha256": "79a5742b865cf06891d4ae43e42cac0e5169c7b7b06b5b3c24ef8e0966d27b62"
+        },
+        {
+          "filename": "ariblk.ttf",
+          "size_bytes": 167592,
+          "sha256": "10df702864b1f89cb29ba0d6b97c04228338d16807e13e8d8c74b91aba5e5f23"
+        }
+      ],
+      "tutorials_or_consumers": "01-10",
+      "publication_status": "User-supplied licensed fonts; not redistributed",
+      "review_note": "Set PERICLOCK_FONT_DIR to your own directory; per-file hashes identify fonts inspected locally, not a redistribution license."
+    },
+    {
+      "id": "Enrichr-2025-and-KEGG-2021",
+      "classification": "External",
+      "tutorials_or_consumers": "04",
+      "libraries": [
+        "GO_Biological_Process_2025",
+        "GO_Cellular_Component_2025",
+        "GO_Molecular_Function_2025",
+        "KEGG_2021_Human"
+      ],
+      "original_sources": [
+        "https://maayanlab.cloud/Enrichr/#libraries"
+      ],
+      "size_bytes": null,
+      "sha256": null,
+      "publication_status": "Original online Enrichr workflow retained; historical service snapshot unpinned"
+    }
+  ],
+  "generated_intermediates": [
+    {
+      "tutorial": "01",
+      "outputs": "fig2/model_comparison/metrics_df.csv; fig2/ET_model/*",
+      "external_download_required": false
+    },
+    {
+      "tutorial": "02",
+      "outputs": "fig3/iter_model/{inte,inte_AIDA,inte_AIDA_CIMA}/*",
+      "external_download_required": false,
+      "exception": "Final all-cohort fit reads the original saved stable-selection table bundled under resources/features/"
+    },
+    {
+      "tutorial": "04",
+      "outputs": "fig4/stable_feature_enrichment/{Positive,Negative}/*_enrichment.csv",
+      "external_download_required": false
+    },
+    {
+      "tutorial": "07",
+      "outputs": "bootstrap_stability/<age-bin>/*; bootstrap_stability/functional_similarity/*",
+      "external_download_required": false
+    },
+    {
+      "tutorial": "08",
+      "outputs": "results/KO_screening/*; results/KO_enrichment/*; results/KO_same_module_bidirectional/*",
+      "external_download_required": false,
+      "exception": "External DeSCOPE-derived input perturbed_ages.csv is not generated by retained tutorials"
+    },
+    {
+      "tutorial": "10",
+      "outputs": "model/bulk_clock_perigenes_model.pkl; model/bulk_clock_perigenes_model_info.json; clinical and weight tables",
+      "external_download_required": false
+    }
+  ],
+  "external_datasets": [
+    {
+      "id": "integration-geo",
+      "name": "Integration: GEO studies",
+      "accession": "Individual GSE/GSM accessions: Supplementary Table 1",
+      "citation": "PeriClock Supplementary Table 1 (16 studies; 91 PBMC samples in Methods)",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/",
+      "role": "Upstream Integration reference; 01,04 and training inputs for 02,05-07,10",
+      "format": "Per-study source files; exact formats and accessions require Supplementary Table 1",
+      "access": "Follow each original GEO record and study terms; redistribution review is per source",
+      "manuscript": "Methods: Public single-cell RNA-seq datasets and cohort assembly; Data availability",
+      "direct_tutorial_input": false
+    },
+    {
+      "id": "integration-synapse",
+      "name": "Healthy human blood atlas",
+      "accession": "syn49637038",
+      "citation": "Terekhova et al., Immunity 2023; manuscript ref. 17",
+      "url": "https://www.synapse.org/Synapse:syn49637038",
+      "role": "Integration/reference source; 01,04 and training-input ancestry",
+      "format": "Repository provides processed objects/count archives; choose exact file/version from source metadata",
+      "access": "Check Synapse file-specific download/access conditions and reuse terms; a public landing page is not a redistribution grant",
+      "manuscript": "Methods cohort assembly; Data availability",
+      "direct_tutorial_input": false
+    },
+    {
+      "id": "riken-sc2018",
+      "name": "RIKEN SC2018 supercentenarian cohort",
+      "accession": "SC2018 resource; selected samples in Supplementary Table 1",
+      "citation": "Hashimoto et al., PNAS 2019; manuscript ref. 18",
+      "url": "http://gerg.gsc.riken.jp/SC2018/",
+      "role": "Two selected samples in Integration; exact sample selection follows Supplementary Table 1",
+      "format": "Study expression/subject files; preserve original identifiers and confirm source file format",
+      "access": "Use original study download/access terms; no additional accession inferred",
+      "manuscript": "Methods cohort assembly; Data availability",
+      "direct_tutorial_input": false,
+      "link_status": "Manuscript-specified legacy address; current live download reachability not verified in this review."
+    },
+    {
+      "id": "aida",
+      "name": "Asian Immune Diversity Atlas (AIDA)",
+      "accession": "CELLxGENE collection ced320a1-29f3-47c1-a735-513c7084d508; research version 1",
+      "citation": "Kock et al., Cell 2025; manuscript ref. 19",
+      "url": "https://cellxgene.cziscience.com/collections/ced320a1-29f3-47c1-a735-513c7084d508",
+      "role": "Training-cohort expansion; processed 712-/1,133-donor feature matrices in 02,05-07,10",
+      "format": "CELLxGENE AnnData (.h5ad); exact dataset asset/version must be matched",
+      "access": "Processed download via source portal; confirm asset license/version before derived-data redistribution",
+      "manuscript": "Data availability; Methods cohort assembly",
+      "direct_tutorial_input": false
+    },
+    {
+      "id": "cima",
+      "name": "Chinese Immune Multi-Omics Atlas (CIMA)",
+      "accession": "CIMA resource; CIMA_RNA_6484974cells_36326genes_compressed.h5ad",
+      "citation": "Yin et al., Science 2026; manuscript ref. 20",
+      "url": "https://db.cngb.org/trueblood/cima/resource",
+      "role": "Final training expansion and DeSCOPE screen; processed feature matrix for 02,05-07,10 and upstream of 08",
+      "format": "AnnData (.h5ad), source metadata CSVs",
+      "access": "Official portal provides download instructions; source data-sharing terms and derived-data rights still require review",
+      "manuscript": "Methods cohort assembly/Virtual screening with DeSCOPE; Data availability",
+      "direct_tutorial_input": false
+    },
+    {
+      "id": "wang",
+      "name": "WangYF_NI lifespan cohort",
+      "accession": "syn61609846",
+      "citation": "Wang et al., Nat Immunol 2025; manuscript ref. 21",
+      "url": "https://www.synapse.org/Synapse:syn61609846",
+      "role": "External clock validation; 03 consumes aggregate benchmark.csv, not this cohort",
+      "format": "Source file scRNA-seqProcessedLabelledObject.rds; prepared AnnData is a separate derived artifact",
+      "access": "Synapse file-specific access/download conditions; do not mirror the original cohort",
+      "manuscript": "Methods cohort assembly/benchmarking; Data availability",
+      "direct_tutorial_input": false
+    },
+    {
+      "id": "sound-life",
+      "name": "Sound Life / Allen Human Immune Health Atlas",
+      "accession": "Official Allen portal; manuscript file human_immune_health_atlas_full.h5ad",
+      "citation": "Gong et al., Nature 2025; manuscript ref. 22",
+      "url": "https://apps.allenimmunology.org/aifi/resources/imm-health-atlas/downloads/scrna/",
+      "role": "External validation; 03 uses aggregates. Ten-donor example subset provenance must be confirmed separately",
+      "format": "AnnData (.h5ad) with cell/sample/subject metadata",
+      "access": "Use the official portal and its data terms; no rehosting of original human data",
+      "manuscript": "Data availability supplies this explicit portal/file; Methods also mentions CELLxGENE generically",
+      "direct_tutorial_input": false
+    },
+    {
+      "id": "hnscc-study",
+      "name": "HNSCC immunotherapy cohort",
+      "accession": "PRJCA027702; PRJCA028161",
+      "citation": "Liu et al., Nat Med 2025; manuscript ref. 50",
+      "url": "https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA027702",
+      "additional_urls": [
+        "https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA028161",
+        "https://www.nature.com/articles/s41591-025-03873-7"
+      ],
+      "role": "09-10 require author-provided, prepared CellTypist-annotated blood AnnData and clinical metadata",
+      "format": "Sequencing data via study BioProjects; local processed input is AnnData (.h5ad)",
+      "access": "Request processed data/clinical metadata through original authors and source access process; no redistribution permission inferred from sequencing availability",
+      "manuscript": "Data availability; Results immunotherapy analysis",
+      "direct_tutorial_input": true
+    },
+    {
+      "id": "nsclc-study",
+      "name": "NSCLC immunotherapy cohort",
+      "accession": "GSE306542",
+      "citation": "Figueiredo et al., iScience 2026; manuscript ref. 51",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE306542",
+      "role": "09-10 use prepared Symphony-annotated AnnData; 10 additionally needs the exact matched raw-count AnnData",
+      "format": "Original repository file formats must be checked in GEO; local analysis consumes .h5ad, not an automatically equivalent GEO download",
+      "access": "Follow official GEO/study terms; prepared clinical artifacts need separate provenance/permission review",
+      "manuscript": "Data availability; Results immunotherapy analysis",
+      "direct_tutorial_input": true
+    },
+    {
+      "id": "proteome-lehallier",
+      "name": "Lifespan plasma-proteomic aging results",
+      "accession": "No dataset accession supplied in PeriClock manuscript; use original study data/supplementary tables",
+      "citation": "Lehallier et al., Nat Med 2019; manuscript ref. 7",
+      "url": "https://www.nature.com/articles/s41591-019-0673-2",
+      "role": "Paper Fig. 4c; not read by current 10 notebooks",
+      "format": "Published proteomic association/summary tables; exact analysis input must be matched to original supplementary data",
+      "access": "Follow original study data-access conditions; do not rehost its participant-level data",
+      "manuscript": "Results: plasma proteomic comparison",
+      "direct_tutorial_input": false
+    },
+    {
+      "id": "proteome-coenen",
+      "name": "Independent plasma cohort aging summaries",
+      "accession": "No dataset accession supplied in PeriClock manuscript; use original article/supplements",
+      "citation": "Coenen et al., Front Aging 2023, doi:10.3389/fragi.2023.1112109; manuscript ref. 31",
+      "url": "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2023.1112109/full",
+      "role": "Paper Fig. 4d; not read by current 10 notebooks",
+      "format": "Published cross-cohort proteomic summary/supplementary tables",
+      "access": "Follow each underlying cohort's access terms; public summary availability does not clear underlying raw-data redistribution",
+      "manuscript": "Results: independent proteomic support",
+      "direct_tutorial_input": false
+    }
+  ],
+  "manuscript_basis": {
+    "actual_file": "Main_origrinal.docx",
+    "sections_reviewed": [
+      "Data availability",
+      "Methods: Public single-cell RNA-seq datasets and cohort assembly",
+      "Methods: annotation and feature construction",
+      "Methods: functional resources and DeSCOPE",
+      "Relevant Results and references 7,17-22,31-33,36,50-51"
+    ],
+    "supplementary_table_1": "Per-study GEO/GSM accessions and source references are delegated to Supplementary Table 1. It is not present in the supplied paper directory; no accession reconstructed from server filenames.",
+    "scope": "Only datasets described as used in PeriClock analyses are acquisition candidates. Mechanistic/background citations, including Framingham/HRS/other centenarian studies, are not automatically new download dependencies."
+  },
+  "dataset_release_plan": {
+    "repository_id": "LeyiZhang1/PeriClock-data",
+    "publication_status": "Uploads in progress; repository currently private",
+    "layout": "Flat filenames at dataset repository root, so downloads can be stored in PERICLOCK_RESOURCE_DIR/datasets without changing notebook defaults. Every individual path remains overridable.",
+    "priority_one_ids": [
+      "integrated-atlas",
+      "healthy-reference",
+      "features-200",
+      "features-700",
+      "features-1000",
+      "bulk-training"
+    ],
+    "later_conditional_ids": [
+      "ko-ages"
+    ],
+    "excluded_from_first_payload": [
+      "hnscc",
+      "nsclc",
+      "GO_Biological_Process_2023",
+      "Reactome_2022"
+    ],
+    "single_full_1133_donor_anndata": "The author-confirmed integrated atlas is inte_final.h5ad (healthy plus disease); the 1,133-row expanded modeling cohort is a separate feature matrix. No claim that this AnnData is a merged Integration+AIDA+CIMA object.",
+    "copy_policy": "All seven requested dataset files are locally staged at author request and checksum-verified. Original files remain unchanged. Public upload and source-rights/privacy clearance remain pending; no upload performed.",
+    "optional_reference_example_ids": [
+      "small-reference-candidate",
+      "symphony-candidate",
+      "example-data"
+    ],
+    "repo_type": "dataset",
+    "checked_revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+    "available_ids": [
+      "bulk-training"
+    ],
+    "pending_upload_ids": [
+      "healthy-reference",
+      "integrated-atlas",
+      "example-data",
+      "small-reference-candidate",
+      "symphony-candidate",
+      "features-200",
+      "features-700",
+      "features-1000",
+      "ko-ages"
+    ]
+  },
+  "license_candidates": {
+    "code": "MIT, candidate only; no final LICENSE installed",
+    "author_owned_data": "CC BY 4.0, candidate only for data/rights authors may license",
+    "clock_models": "Formal license pending; prior approval covers local staging",
+    "third_party_derived": "Per-source terms and human-data review required; no blanket relicense"
+  },
+  "hugging_face_repositories": {
+    "model": {
+      "repo_id": "LeyiZhang1/PeriClock",
+      "repo_type": "model",
+      "url": "https://huggingface.co/LeyiZhang1/PeriClock",
+      "checked_revision": "0e761ebae1010f9c148e0ec7be89063815f21d25",
+      "private": true,
+      "checked_on": "2026-11-18"
+    },
+    "dataset": {
+      "repo_id": "LeyiZhang1/PeriClock-data",
+      "repo_type": "dataset",
+      "url": "https://huggingface.co/datasets/LeyiZhang1/PeriClock-data",
+      "checked_revision": "7eaf53c59e3b5320b5f83cde1ed2ee15ff5fa4ef",
+      "private": true,
+      "checked_on": "2026-11-18"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+
+
+# PeriClock core runtime dependencies (Python 3.12).
+# Keep these pins synchronized with [project.dependencies] in pyproject.toml.
+# Saved-model compatibility requires the pinned scikit-learn version.
+# Install from the repository root: python -m pip install -r requirements.txt
+
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.11.4
+anndata==0.11.1
+h5py==3.11.0
+scikit-learn==1.5.1
+joblib==1.4.2
+
+# Optional capabilities (install only what your workflow needs):
+# Hugging Face: python -m pip install '.[hub]'
+# Preprocessing: python -m pip install '.[preprocessing]'
+# CellTypist:    python -m pip install '.[celltypist]'
+# Symphony:      python -m pip install '.[symphony]'
+# BBKNN:         python -m pip install '.[bbknn]'
+# Tests:         python -m pip install '.[dev,preprocessing]'
+# Research notebooks declare additional dependencies in tutorials/README.md
+# and their introductory cells. scAgeClock uses a separate environment.
+
+# Install this checkout in editable mode; models/data are downloaded separately.
+-e .

@@ -1,0 +1,56 @@
+# Local isolation, generated outputs and credentials.
+/.release_quarantine/
+/results/
+/outputs/
+**/outputs/
+/tutorial_outputs/
+config.local.json
+*.executed.ipynb
+.env
+.env.*
+!.env.example
+
+# Models and biological datasets are distributed separately.
+*.pkl
+*.pickle
+*.joblib
+*.h5ad
+*.h5
+*.hdf5
+*.rds
+*.RDS
+*.parquet
+*.loom
+*.mtx
+*.csv
+*.tsv
+!/resources/features/bootstrap_selected_stable_features.csv
+!/resources/features/stable_feature_coef.csv
+!/resources/features/stable_feature_coef_no0.csv
+!/resources/features/features_trend_trainset.csv
+!/resources/benchmark/benchmark.csv
+/models/
+/data/
+/raw_data/
+/periclock/celltypist_model/
+
+# Optional checks tied to the private original research workspace.
+/tests/local_validation.py
+/tests/baselines/local_evidence.json
+
+# Reproducible caches/build artifacts.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.coverage*
+htmlcov/
+.venv/
+venv/
+.tox/
+.nox/
+*.log
+.DS_Store

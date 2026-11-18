@@ -1,0 +1,15 @@
+# Package source only; large/external resources and local isolation are excluded.
+include README.md RESOURCE_DOWNLOAD.md pyproject.toml requirements.txt MANIFEST.in
+recursive-include periclock *.py
+prune .release_quarantine
+prune models
+prune data
+prune raw_data
+prune examples
+prune results
+prune outputs
+prune tests
+prune docs
+prune tutorials
+global-exclude *.pkl *.pickle *.joblib *.h5ad *.h5 *.hdf5 *.rds *.RDS *.ipynb *.pyc *.pyo
+global-exclude .env .env.*
