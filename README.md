@@ -28,6 +28,8 @@ This repository provides the PeriClock Python package, usage examples, and resea
 | **PeriClock-bulk** | Donor mean expression of 131 PeriClock genes / Elastic Net | Donor-level aggregates from the combined modeling cohort | Expression-only comparison without subtype resolution |
 | **PeriClock-proportion** | 48 subtype proportions / Extra Trees | Healthy Integration modeling data | Composition-only comparison |
 
+**Recommended model**. We recommend **PeriClock** as the primary model for peripheral immune age estimation. It is the final model developed using the combined healthy PBMC cohorts (Integration, AIDA and CIMA). The PeriClock-200s, PeriClock-700s and PeriClock-1000s models are provided to illustrate model development across progressively expanded cohorts, while PeriClock-bulk and PeriClock-proportion serve as alternative models for specific analyses and comparisons.
+
 See [model details](docs/models.md) for feature definitions, saved transformations
 and prediction outputs.
 
