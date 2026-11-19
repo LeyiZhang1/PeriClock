@@ -178,7 +178,7 @@ accessions and sample selection are in Supplementary Table 1.
 
 If you use PeriClock, please cite the accompanying manuscript:
 
-> Leyi Zhang, Yazi Li, Yanji Qu, Yaojie Zhang, Yuting Wang, Zijia Li,
+> Leyi Zhang, Yazi Li, Yanji Qu, Yaojie Zhang, Yongyan Wang,  Yuting Wang, Zijia Li,
 > Xiantong Jiang, and Chenfei Wang. **Characterizing and perturbing peripheral
 > immune aging in humans using PeriClock.** Manuscript.
 
